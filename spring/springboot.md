@@ -1,0 +1,3 @@
+约定大于配置
+ConditionalOnMissingClass
+ConditionalOnMissingBean
