@@ -6,11 +6,11 @@
         "crowdPrimaryKey": "S1.openid,S1.zone_id",
         "profilePrimaryKey": "openid,zone_id",
         "profileDatabase": "smoba",
-        "profileTable": "user_profile_all",
+        "profileTable": "",
         "profileDsField": "p_date",
         "profileDsType": "string",
         "crowdDatabase": "smoba",
-        "crowdTable": "t_mda_crowd_uid_test",
+        "crowdTable": "",
         "crowdDsField": "ds",
         "crowdJoinProfile": "S1.openid = S2.openid and S1.zone_id = S2.zone_id",
         "desc": "用户画像表"
@@ -22,27 +22,29 @@
         "crowdPrimaryKey": "S1.openid",
         "profilePrimaryKey": "openid",
         "profileDatabase": "smoba",
-        "profileTable": "ztx_user_persona_op_immigrate_SR",
+        "profileTable": "",
         "profileDsField": "p_date",
         "profileDsType": "string",
         "crowdDatabase": "smoba",
-        "crowdTable": "t_mda_account_crowd_uid_test",
+        "crowdTable": "",
         "crowdDsField": "ds",
         "crowdJoinProfile": "S1.openid = S2.openid",
         "desc": "账户画像表"
       }
-    },
+    }
+  ],
+  "camp": [
     {
       "camp": {
         "observeObject": "3",
         "crowdPrimaryKey": "S1.usrid",
         "profilePrimaryKey": "userid",
         "profileDatabase": "smoba",
-        "profileTable": "dws_ieg_smoba_camp_profile_userid_all_tag_df",
+        "profileTable": "",
         "profileDsField": "p_date",
         "profileDsType": "string",
         "crowdDatabase": "smoba",
-        "crowdTable": "t_mda_camp_crowd_uid_test",
+        "crowdTable": "",
         "crowdDsField": "ds",
         "crowdJoinProfile": "S1.usrid = S2.userid",
         "desc": "营地画像表"
@@ -52,4 +54,3 @@
   "hok": [
   ]
 }
-
