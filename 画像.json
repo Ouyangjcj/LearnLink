@@ -36,7 +36,7 @@
   "camp": [
     {
       "camp": {
-        "observeObject": "3",
+        "observeObject": "2",
         "crowdPrimaryKey": "S1.usrid",
         "profilePrimaryKey": "userid",
         "profileDatabase": "smoba",

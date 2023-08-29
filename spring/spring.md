@@ -1,0 +1,11 @@
+BeanDefinitionRegistryPostProcessor  bean定义前后执行
+
+BeanFactoryPostProcessor  bean实例化前后执行
+
+BeanPostProcessor   bean初始化前后执行
+
+
+为什么aop自定注册的beanname需要设计为一个固定值：org.springframework.aop.config.internalAutoProxyCreator
+因为aop官方提供了多个自动注册类，为了防止用户重复注入自动注册类，所以将bean设置为固定值，注册时先检查beanname是否已经注册。
+
+ 
